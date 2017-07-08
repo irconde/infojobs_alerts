@@ -5,12 +5,20 @@ from infojobs_handler import InfojobsHandler
 import smtplib
 from email.mime.text import MIMEText
 import sys
+import logging
 
 
 def main():
 
+    logger = logging.getLogger('infojobs_handler')
+    hdlr = logging.FileHandler('error.log')
+    formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+    hdlr.setFormatter(formatter)
+    logger.addHandler(hdlr)
+    logger.setLevel(logging.INFO)
+
     if len(sys.argv) != 5:
-        print "Incorrect number of input parameters"
+        logger.error('Incorrect number of input parameters')
         return
 
     from_mail = sys.argv[1]
@@ -37,7 +45,8 @@ def main():
         server.login(from_mail, from_pass)
         server.sendmail(from_mail, [to_mail], msg.as_string())
         server.quit()
-
+    else:
+        logger.info('New jobs not found')
 
 if __name__ == "__main__":
     main()
