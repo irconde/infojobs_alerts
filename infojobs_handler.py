@@ -87,3 +87,26 @@ class InfojobsHandler:
 
         return summary.encode('utf-8')
 
+
+    def get_offers_list(self):
+
+        summary_list = []
+
+        for offer in self.offer_list:
+
+            summary = u""
+
+            title = offer['title']
+
+            summary += title
+            summary += "\n"
+            summary += offer['link']
+            summary += "\n"
+            summary = summary + "Salario: [" + offer['salaryMin']['value'] + " - " + offer['salaryMax']['value'] + "]"
+            summary += "\n"
+            summary = summary + "Publicacion: " + offer['published']
+
+            summary_list.append(str(summary.encode('utf-8')))
+
+        return summary_list
+
