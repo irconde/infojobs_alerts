@@ -6,7 +6,7 @@
 
   "parameters":{
     "provinces": ["ourense", "lugo", "a-coruna", "pontevedra"],
-    "keywords": ["gest*", "admin*", "finan*", "contab*", "proyecto*"],
+    "keywords": [ "puesto: administrativo", "puesto_contabilidad", "puesto: contable", "puesto: adjunto", "puesto: dirección", "puesto:proyecto", "puesto: gestor", "puesto:gestión", "puesto: jefe", "puesto: financiero", "puesto: banca", "puesto:manager", "puesto:controller", "puesto: exterior"],
     "time-window": "5"
   }
 }
