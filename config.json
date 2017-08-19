@@ -1,12 +1,50 @@
 {
-  "auth_data":{
-    "client_id": "ab7ac04688174782a8269c5adc7bde6c",
-    "client_secret": "Gnt7Tqgb4fUctqOMKXWjJg9YPGKKPP+PDgd6r/B0tdsjPEqbmp"
-  },
-
-  "parameters":{
-    "provinces": ["ourense", "lugo", "a-coruna", "pontevedra"],
-    "keywords": [ "puesto: administrativo", "puesto_contabilidad", "puesto: contable", "puesto: adjunto", "puesto: dirección", "puesto:proyecto", "puesto: gestor", "puesto:gestión", "puesto: jefe", "puesto: financiero", "puesto: banca", "puesto:manager", "puesto:controller", "puesto: exterior"],
-    "time-window": "5"
-  }
+    "galejobs": {
+        "keywords": [
+            "administrativo", 
+            "contab", 
+            "financ", 
+            "banca", 
+            "adjunto", 
+            "direc", 
+            "proyecto", 
+            "gest", 
+            "jefe", 
+            "manager", 
+            "controller", 
+            "comercio exterior"
+        ], 
+        "last_id": "2635"
+    }, 
+    "infojobs": {
+        "auth_data": {
+            "client_id": "ab7ac04688174782a8269c5adc7bde6c", 
+            "client_secret": "Gnt7Tqgb4fUctqOMKXWjJg9YPGKKPP+PDgd6r/B0tdsjPEqbmp"
+        }, 
+        "parameters": {
+            "keywords": [
+                "puesto: administrativo", 
+                "puesto_contabilidad", 
+                "puesto: contable", 
+                "puesto: adjunto", 
+                "puesto: dirección", 
+                "puesto:proyecto", 
+                "puesto: gestor", 
+                "puesto:gestión", 
+                "puesto: jefe", 
+                "puesto: financiero", 
+                "puesto: banca", 
+                "puesto:manager", 
+                "puesto:controller", 
+                "puesto: exterior"
+            ], 
+            "provinces": [
+                "ourense", 
+                "lugo", 
+                "a-coruna", 
+                "pontevedra"
+            ], 
+            "time-window": "25000"
+        }
+    }
 }

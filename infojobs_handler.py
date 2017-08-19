@@ -17,7 +17,7 @@ class InfojobsHandler:
     def load_config(self):
 
         json_string = open(self.config_file).read()
-        json_data = json.loads(json_string)
+        json_data = json.loads(json_string)['infojobs']
         self.auth_data = (json_data['auth_data']['client_id'], json_data['auth_data']['client_secret'])
         self.parameters = self.process_query_parameters(json_data['parameters'])
 
