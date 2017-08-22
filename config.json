@@ -16,6 +16,32 @@
         ], 
         "last_id": "2635"
     }, 
+    "indeed": {
+        "keywords": [
+            "administrativo", 
+            "contable", 
+            "contabilidad", 
+            "finanzas", 
+            "financiero", 
+            "banca", 
+            "adjunto", 
+            "director", 
+            "dirección", 
+            "proyecto", 
+            "gestor", 
+            "gestión", 
+            "jefe", 
+            "manager", 
+            "controller", 
+            "comercio", 
+            "exterior"
+        ], 
+        "provinces": [
+            "Ourense",
+            "A+Coruña", 
+            "Pontevedra"
+        ]
+    }, 
     "infojobs": {
         "auth_data": {
             "client_id": "ab7ac04688174782a8269c5adc7bde6c", 
@@ -39,12 +65,11 @@
                 "puesto: exterior"
             ], 
             "provinces": [
-                "ourense", 
-                "lugo", 
+                "ourense",
                 "a-coruna", 
                 "pontevedra"
             ], 
-            "time-window": "25000"
+            "time-window": "5"
         }
     }
 }
