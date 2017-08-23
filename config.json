@@ -17,6 +17,13 @@
         "last_id": "2635"
     }, 
     "indeed": {
+        "exceptions": [
+            "comercial", 
+            "programador", 
+            "programadores", 
+            "becario", 
+            "obra"
+        ], 
         "keywords": [
             "administrativo", 
             "contable", 
@@ -37,7 +44,7 @@
             "exterior"
         ], 
         "provinces": [
-            "Ourense",
+            "Ourense", 
             "A+Coruña", 
             "Pontevedra"
         ]
@@ -65,7 +72,7 @@
                 "puesto: exterior"
             ], 
             "provinces": [
-                "ourense",
+                "ourense", 
                 "a-coruna", 
                 "pontevedra"
             ], 
